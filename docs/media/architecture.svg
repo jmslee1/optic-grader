@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="168" viewBox="0 0 920 168" role="img" aria-label="Module I2C to JSON grade">
+  <rect width="920" height="168" fill="#f7f6f3"/>
+  <g font-family="ui-sans-serif, sans-serif" font-size="13" fill="#1c1917">
+    <g>
+      <rect x="16" y="28" width="116" height="64" rx="6" fill="#fff" stroke="#1c1917"/>
+      <text x="74" y="54" text-anchor="middle" font-weight="600">module I2C</text>
+      <text x="74" y="74" text-anchor="middle" fill="#57534e">100 kHz</text>
+    </g>
+    <g>
+      <rect x="164" y="28" width="116" height="64" rx="6" fill="#fff" stroke="#1c1917"/>
+      <text x="222" y="54" text-anchor="middle" font-weight="600">page read</text>
+      <text x="222" y="74" text-anchor="middle" fill="#57534e">A0h/A2h or 11h</text>
+    </g>
+    <g>
+      <rect x="312" y="28" width="128" height="64" rx="6" fill="#fff" stroke="#1c1917"/>
+      <text x="376" y="54" text-anchor="middle" font-weight="600">convert</text>
+      <text x="376" y="74" text-anchor="middle" fill="#57534e">°C, V, mA, dBm</text>
+    </g>
+    <g>
+      <rect x="472" y="28" width="116" height="64" rx="6" fill="#fff" stroke="#1c1917"/>
+      <text x="530" y="54" text-anchor="middle" font-weight="600">tier 1–2</text>
+      <text x="530" y="74" text-anchor="middle" fill="#57534e">A / B / C / Recycle</text>
+    </g>
+    <g>
+      <rect x="620" y="28" width="128" height="64" rx="6" fill="#fff" stroke="#1c1917"/>
+      <text x="684" y="54" text-anchor="middle" font-weight="600">tier 3</text>
+      <text x="684" y="74" text-anchor="middle" fill="#57534e">baseline, 4-2-4</text>
+    </g>
+    <g>
+      <rect x="780" y="28" width="120" height="64" rx="6" fill="#1c1917"/>
+      <text x="840" y="54" text-anchor="middle" fill="#f7f6f3" font-weight="600">JSON line</text>
+      <text x="840" y="74" text-anchor="middle" fill="#d6d3d1">1 Hz + change</text>
+    </g>
+    <g stroke="#1c1917" stroke-width="1.4" fill="none">
+      <path d="M132 60 H164"/>
+      <path d="M280 60 H312"/>
+      <path d="M440 60 H472"/>
+      <path d="M588 60 H620"/>
+      <path d="M748 60 H780"/>
+    </g>
+    <text x="16" y="128" fill="#57534e">Features: temp, Vcc, TX bias, RX power. TX power is reported, then excluded.</text>
+    <text x="16" y="148" fill="#57534e">Informative tier does not replace the vendor thresholds.</text>
+  </g>
+</svg>
